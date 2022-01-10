@@ -127,3 +127,71 @@
 
 /* Esercizio 6 */
 
+.ex-6-img:hover{
+    filter: grayscale();
+}
+
+/* Esercizio 7 */
+
+.ex-7-img{
+    transition: 1s;
+}
+
+.ex-7-img:hover{
+    filter: sepia();
+    filter: saturate(50%);
+}
+
+/* Esercizio 8 */
+
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 30px;
+    filter: saturate(30%);
+}
+
+/* Esercizio 9 */
+
+.ex-9-img{
+    transition: 3s;
+}
+
+.ex-9-img:hover{
+    border-radius: 30px;
+    filter: sepia();
+    filter: saturate(50%);
+    transform: scale(1.5, 1.5);
+}
+
+/* Esercizio 10 */
+
+.ex-10-icon{
+    animation: 1s linear infinite reverse rotate10;
+}
+
+@keyframes rotate10{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* Esercizio 11 */
+
+/* .ex-11-icon:hover{
+    animation: 1s cubic-bezier( 1, 0, 0.4, 0.41 ) rotate11;
+}
+
+@keyframes rotate11 {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
